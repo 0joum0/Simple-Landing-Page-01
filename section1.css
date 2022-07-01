@@ -1,0 +1,92 @@
+.section1{
+    background: url(style/Home.png) no-repeat;
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+h2{
+    padding-top: 240px;
+    padding-left: 120px;
+    font-family: roboto;
+    font-size: 64px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.content{
+    font-family: roboto;
+    font-size: 24px;
+    font-weight: 400;
+    width: 390px;
+    padding-left: 120px;
+    padding-bottom: 42px;
+}
+
+button{
+    width: 196px;
+    height: 60px;
+    border-radius: 8px;
+    margin-left: 120px;
+    border: none;
+    background-color: rgb(1, 132, 127);
+    color: white;
+    font-family: roboto;
+    font-size: 24px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+    
+  button:hover {
+    transform: translate(0, -10px);
+  }
+
+.social{
+    margin-left: 130px;
+    margin-top: 55px;
+    cursor: pointer;
+    font-size: 35px;
+    word-spacing: 10px;
+    color: white;
+}
+
+.droit{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(68, 161, 160);
+    margin-right: 176px;
+    margin-top:200px;
+    transform: rotate(354.53deg);
+    
+    
+}
+
+.girl{
+    width: 500px;
+    height: 500px;  
+    transform: rotate(5.47deg);
+    
+    
+    
+}
+
+.girl:hover{
+    transform: rotate(360deg);
+}
+
+
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
